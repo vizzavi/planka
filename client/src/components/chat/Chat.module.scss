@@ -1,0 +1,24 @@
+:global(#app) {
+  .chat {
+    margin-top: 14px;
+  }
+
+  .messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 8px;
+    padding: 4px;
+    border: 1px solid rgba(9, 30, 66, 0.13);
+    border-radius: 3px;
+    background: #fff;
+  }
+
+  .message {
+    margin-bottom: 4px;
+    word-break: break-word;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
