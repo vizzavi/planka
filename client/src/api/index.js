@@ -29,6 +29,7 @@ import comments from './comments';
 import activities from './activities';
 import notifications from './notifications';
 import notificationServices from './notification-services';
+import chatMessages from './chat-messages';
 
 export { http, socket };
 
@@ -57,4 +58,5 @@ export default {
   ...activities,
   ...notifications,
   ...notificationServices,
+  ...chatMessages,
 };

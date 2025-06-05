@@ -14,6 +14,7 @@ import FiniteContent from './FiniteContent';
 import EndlessContent from './EndlessContent';
 import CardModal from '../../cards/CardModal';
 import BoardActivitiesModal from '../../activities/BoardActivitiesModal';
+import Chat from '../../chat';
 
 const Board = React.memo(() => {
   const board = useSelector(selectors.selectCurrentBoard);
@@ -54,6 +55,7 @@ const Board = React.memo(() => {
   return (
     <>
       <Content />
+      <Chat />
       {modalNode}
     </>
   );
